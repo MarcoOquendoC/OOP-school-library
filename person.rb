@@ -10,8 +10,7 @@ class Person
   attr_reader :id
 
   # accessors (getters and setters)
-  attr_accessor :name
-  attr_accessor :age
+  attr_accessor :name, :age
 
   # public methods
   def can_use_services?
@@ -20,7 +19,8 @@ class Person
 
   # private methods
   private
-  def is_of_age?
+
+  def of_age?
     @age >= 18
   end
 end
