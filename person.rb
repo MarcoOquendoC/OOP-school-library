@@ -7,6 +7,7 @@ class Person < Nameable
     @name = name
     @age = age
     @parent_permission = parent_permission
+    rentals = []
   end
 
   # getters
@@ -26,6 +27,13 @@ class Person < Nameable
 
   # belongs to relationship
   attr_accessor :classroom
+
+  # many to many relationship
+  attr_reader :rentals
+  def create_rental(rental)
+    @rentals << rental
+    rental.person = self
+  end
 
   # private methods
   private
