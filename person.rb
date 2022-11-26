@@ -1,4 +1,4 @@
-require 'nameable'
+require './nameable'
 
 class Person < Nameable
   def initialize(age, name = 'Unknown', parent_permission: true)
@@ -7,6 +7,7 @@ class Person < Nameable
     @name = name
     @age = age
     @parent_permission = parent_permission
+    @rentals = []
   end
 
   # getters
@@ -22,6 +23,16 @@ class Person < Nameable
 
   def correct_name
     @name
+  end
+
+  # belongs to relationship
+  attr_accessor :classroom
+
+  # many to many relationship
+  attr_reader :rentals
+
+  def create_rental(date, book)
+    Rental.new(date, self, book)
   end
 
   # private methods
