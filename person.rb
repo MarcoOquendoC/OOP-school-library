@@ -30,6 +30,7 @@ class Person < Nameable
 
   # many to many relationship
   attr_reader :rentals
+  
   def create_rental(rental)
     @rentals << rental
     rental.person = self
