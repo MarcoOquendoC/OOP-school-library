@@ -24,6 +24,9 @@ class Person < Nameable
     @name
   end
 
+  # belongs to relationship
+  attr_accessor :classroom
+
   # private methods
   private
 
