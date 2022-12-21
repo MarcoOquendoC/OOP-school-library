@@ -1,11 +1,5 @@
 <a name="readme-top"></a>
 
-<div align="center">
-
-  <h3><b>OOP-school-library</b></h3>
-
-</div>
-
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 OOP-school-library <a name="morse-decoder"></a>
