@@ -98,7 +98,7 @@ If you like this project please give it a ⭐️!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank [Microverse](www.microverse.org) team.
+I would like to thank [Microverse](https://www.microverse.org/) team.
 - Special Thanks to everyone who will get time to check this code and suggest any [issue](https://github.com/MarcoOquendoC/OOP-school-library/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
