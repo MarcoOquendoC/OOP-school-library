@@ -14,6 +14,5 @@ class Classroom
 
   def students_name_list
     @students.map(&:name)
-    # same as @students.map {|student| student.name}
   end
 end
