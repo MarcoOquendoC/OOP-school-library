@@ -11,4 +11,9 @@ class Classroom
     @students << student unless @students.include?(student)
     student.classroom = self
   end
+
+  def students_name_list
+    @students.map(&:name)
+    # same as @students.map {|student| student.name}
+  end
 end
