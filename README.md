@@ -1,23 +1,69 @@
 <a name="readme-top"></a>
 
+<div align="center">
+
+  <h1>📖<b>OOP-school-library</b></h1>
+  
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 OOP-school-library <a name="morse-decoder"></a>
+# 📖 [OOP-school-library] <a name="about-project"></a>
 
-> A library tool to record what books are in the library and who borrows them.
+**[OOP-school-library]** Is a library tool to record what books are in the library and who borrows them.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- [Ruby](https://www.ruby-lang.org/en/)
-- [Rubocop](https://docs.rubocop.org/rubocop/1.39/index.html)
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+  </ul>
+</details>
 
-<!-- Features -->
+<details>
+  <summary>Linters</summary>
+  <ul>
+    <li><a href="https://docs.rubocop.org/rubocop/1.39/index.html">Rubocop</a></li>
+  </ul>
+</details>
+
+<!--
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+-->
 
 ### Key Features <a name="key-features"></a>
 
-- Records books
+- **[Save information of books, people and rentals given by the user]**
+- **[List saved information]**
+- **[Create rentals for each book]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -58,14 +104,12 @@ To run the project, execute the following commands:
 
 ```sh
   irb
-  irb(main):001:0> require "./person.rb"
-  irb(main):001:0> require "./student.rb"
-  irb(main):001:0> require "./teacher.rb"
+  irb(main):001:0> require "./main.rb"
 ```
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="author"></a>
+## 👥 Author <a name="authors"></a>
 
 ### 👤 Marco Oquendo 
 
@@ -73,6 +117,17 @@ To run the project, execute the following commands:
 - Twitter: [@marcooquendoc](https://twitter.com/marcooquendoc). 
 - LinkedIn: [Marco Vinicio Oquendo](https://www.linkedin.com/in/MarcoOquendoC/). 
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Refactoring]**
+- [ ] **[Preserve data]**
+- [ ] **[Unit tests]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
