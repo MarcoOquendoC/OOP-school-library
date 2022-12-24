@@ -2,7 +2,7 @@ require_relative './decorators/nameable'
 
 class Person < Nameable
   attr_reader :id
-  attr_accessor :name, :age, :parent_permission, :rentals
+  attr_accessor :age, :name, :parent_permission, :rentals
 
   def initialize(
     age,
@@ -33,6 +33,6 @@ class Person < Nameable
   private
 
   def of_age?
-    @age >= 18
+    @age.to_i >= 18
   end
 end
