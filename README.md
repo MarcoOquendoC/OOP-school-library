@@ -109,13 +109,24 @@ To run the project, execute the following commands:
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 ### 👤 Marco Oquendo 
 
 - GitHub: [@MarcoOquendoC](https://github.com/MarcoOquendoC). 
 - Twitter: [@marcooquendoc](https://twitter.com/marcooquendoc). 
 - LinkedIn: [Marco Vinicio Oquendo](https://www.linkedin.com/in/MarcoOquendoC/). 
+
+### 👤 David Tamayo
+
+- GitHub: [@IngDavidTM](https://github.com/IngDavidTM)
+- Twitter: [@David5TM](https://twitter.com/David5TM)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ing-david-tamayo)
+
+### 👤 Mhamad Raad
+
+- GitHub: [@Mhamad-Raad](https://github.com/Mhamad-Raad)
+- LinkedIn: [Mhamad Raad](https://www.linkedin.com/in/mhamad-raad/) 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
