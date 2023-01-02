@@ -2,7 +2,8 @@ module CreatePerson
   # 3
   def create_person
     puts "_________________NEW PERSON________________\n "
-    print 'Do you want to create a student (1) or a teacher (2)? [Input the number]: '
+    puts 'Do you want to create a student (1) or a teacher (2)?'
+    print 'Input the number: '
     type = gets.chomp.to_i
     case type
     when 1
