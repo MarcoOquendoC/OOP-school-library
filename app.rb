@@ -14,6 +14,7 @@ require_relative './modules/create_book_4'
 require_relative './modules/create_rental_5'
 require_relative './modules/list_rentals_6'
 require_relative './modules/menu'
+require_relative './data/handle_exit'
 
 class App
   # modules one for each option [1..6]
@@ -24,6 +25,7 @@ class App
   include CreateRental
   include ListRentals
   include Menu
+  include HandleExit
 
   def initialize
     @books = []
@@ -39,6 +41,7 @@ class App
     system('clear')
     handle_command(command) unless command == 7
     puts 'Thank you for using this app!'
+    handle_exit
     exit
   end
 
