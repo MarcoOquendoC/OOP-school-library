@@ -28,7 +28,8 @@ module CreatePerson
     label = gets.chomp
     classroom = look_for_classroom(label)
     parent_permission = permission?
-    @people << Student.new(classroom, age, name, parent_permission: parent_permission)
+    create_student = Student.new(classroom, age, name, parent_permission: parent_permission)
+    @people << { 'id' => create_student.id, 'age' => create_student.age, 'name' => create_student.name, 'parent_permission' => create_student.parent_permission, 'class' => 'null' }
     @classrooms << classroom
   end
 
@@ -64,6 +65,7 @@ module CreatePerson
     age = gets.chomp
     print 'Specialization: '
     specialization = gets.chomp
-    @people << Teacher.new(specialization, age, name)
+    create_teacher = Teacher.new(specialization, age, name)
+    @people << { 'id' => create_teacher.id, 'age' => create_teacher.age, 'name' => create_teacher.name, 'parent_permission' => create_teacher.parent_permission, 'class' => 'method' }
   end
 end

@@ -8,13 +8,8 @@ module ListAllPeople
     else
       @people.each_with_index do |p, i|
         puts "
-          #{i + 1})\s[#{p.class}] Id: #{p.id},\s
-          Name: #{p.name}, Age: #{p.age},\s
-          #{if p.class.to_s == 'Student'
-              "Class: #{p.classroom.label}"
-            else
-              "Spec.: #{p.specialization}"
-            end}
+          #{i + 1})\s[#{p['class'] == 'method' ? 'Teacher' : 'Student'}] Id: #{p['id']},\s
+          Name: #{p['name']}, Age: #{p['age']}\s
         "
       end
       puts "\nEnd of the people's list\n "
