@@ -18,7 +18,13 @@ module CreateRental
     person = @people[gets.chomp.to_i - 1]
     print 'Date [yyyy/mm/dd] : '
     date = gets.chomp
-    @rentals << Rental.new(person, book, date)
+    create_rental = Rental.new(person['name'], book['title'], person['id'], date)
+    @rentals << {
+      'person' => create_rental.person,
+      'book' => create_rental.book,
+      'date' => create_rental.date,
+      'id' => create_rental.id
+    }
     puts 'Rental created successfully!'
     run
   end

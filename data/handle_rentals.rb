@@ -4,10 +4,10 @@ module HandleRentals
 
     data = JSON.pretty_generate(@rentals.map do |e|
                                   {
-                                    date: e.date,
-                                    person_name: e.person.name,
-                                    book_title: e.book.title,
-                                    person_id: e.person.id
+                                    date: e['date'],
+                                    person: e['person'],
+                                    book: e['book'],
+                                    id: e['id']
                                   }
                                 end)
     File.write('./data/rentals.json', data)
