@@ -7,7 +7,7 @@ describe 'Test classroom object' do
     expect(classroom).to be_instance_of(Classroom)
   end
 
-  it "student name should be 'Test Name'" do
+  it "classroom label should be 'A1'" do
     expect(classroom.label).to eql 'A1'
   end
 end
