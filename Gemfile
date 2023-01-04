@@ -9,3 +9,5 @@ gem 'rubocop', '>= 1.0', '< 2.0'
 # run rspec to run the tests
 # It will test the code in the spec folder. Files ended in _spec.rb
 gem 'rspec', '>=3.0', '< 4.0'
+
+gem 'json', '~> 2.6'
