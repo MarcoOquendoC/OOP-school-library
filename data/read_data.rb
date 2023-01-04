@@ -6,4 +6,10 @@ module ReadData
     hash = JSON.parse(json_from_file)
     hash
   end
+
+  def read_books
+    json_from_file = File.read('./data/books.json')
+    hash = JSON.parse(json_from_file)
+    hash
+  end
 end

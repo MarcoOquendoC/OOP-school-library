@@ -4,8 +4,8 @@ module HandleBooks
 
     data = JSON.pretty_generate(@books.map do |e|
                                   {
-                                    title: e.title,
-                                    author: e.author
+                                    title: e['title'],
+                                    author: e['author']
                                   }
                                 end)
     File.write('./data/books.json', data)

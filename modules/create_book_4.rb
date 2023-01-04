@@ -7,7 +7,8 @@ module CreateBook
     title = gets.chomp
     print 'Author: '
     author = gets.chomp
-    @books << Book.new(title, author)
+    create_book = Book.new(title, author)
+    @books << { 'title' => create_book.title, 'author' => create_book.author }
     puts 'Book created successfully'
     run
   end

@@ -30,7 +30,7 @@ class App
   include ReadData
 
   def initialize
-    @books = []
+    @books = read_books
     @people = read_people
     @rentals = []
     @classrooms = []

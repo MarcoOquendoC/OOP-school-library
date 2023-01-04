@@ -7,7 +7,7 @@ module ListAllBooks
       puts "No books in the database\n "
     else
       @books.each_with_index do |b, i|
-        puts "#{i + 1}) #{b.title} by #{b.author}"
+        puts "#{i + 1}) #{b['title']} by #{b['author']}"
       end
       puts "\nEnd of the books' list\n "
     end
